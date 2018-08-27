@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="3" name="pytest" skips="0" tests="7" time="1.056"><testcase classname="test_submit" file="test_submit.py" line="12" name="test_part_1" time="0.001680135726928711"></testcase><testcase classname="test_submit" file="test_submit.py" line="16" name="test_part_2" time="0.003336191177368164"></testcase><testcase classname="test_submit" file="test_submit.py" line="20" name="test_part_3" time="0.03935837745666504"><failure message="ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().">E   ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().</failure></testcase><testcase classname="test_submit" file="test_submit.py" line="45" name="test_part_4" time="0.011379718780517578"></testcase><testcase classname="test_submit" file="test_submit.py" line="60" name="test_part_5" time="0.03098273277282715"><failure message="assert False
+ +  where False = &lt;bound method Series.all of 0     True\n1    False\n2    False\n3    False\n4    False\n5    False\n6    False\n7    False\n8    False\n9     True\ndtype: bool&gt;()
+ +    where &lt;bound method Series.all of 0     True\n1    False\n2    False\n3    False\n4    False\n5    False\n6    False\n7    False\n8    False\n9     True\ndtype: bool&gt; = 0            ... dtype: object == 0             ...\ndtype: object
+      Full diff:
+      0                Barry Richardson
+      - 1                 Essam El Hadary
+      - 2                     Óscar Pérez
+      ? ^
+      + 1                     Óscar Pérez
+      ? ^
+      - 3                    Jimmy Walker
+      + 2                 Essam El Hadary
+      - 4                     Danny Coyne
+      ? ^
+      + 3                     Danny Coyne
+      ? ^
+      - 5                       Chris Day
+      + 4                    Jimmy Walker
+      - 6    Joaquim Manuel Sampaio Silva
+      ? ^
+      + 5    Joaquim Manuel Sampaio Silva
+      ? ^
+      - 7                   Kjetil Wæhler
+      ? ^
+      + 6                   Kjetil Wæhler
+      ? ^
+      - 8                    Timmy Simons
+      + 7                       Chris Day
+      + 8                   Marco Storari
+      9                  Benjamin Nivet
+      - Name: full_name, dtype: object
+      + dtype: object.all">E   assert False
+     +  where False = &lt;bound method Series.all of 0     True\n1    False\n2    False\n3    False\n4    False\n5    False\n6    False\n7    False\n8    False\n9     True\ndtype: bool&gt;()
+     +    where &lt;bound method Series.all of 0     True\n1    False\n2    False\n3    False\n4    False\n5    False\n6    False\n7    False\n8    False\n9     True\ndtype: bool&gt; = 0            ... dtype: object == 0             ...\ndtype: object
+          Full diff:
+          0                Barry Richardson
+          - 1                 Essam El Hadary
+          - 2                     Óscar Pérez
+          ? ^
+          + 1                     Óscar Pérez
+          ? ^
+          - 3                    Jimmy Walker
+          + 2                 Essam El Hadary
+          - 4                     Danny Coyne
+          ? ^
+          + 3                     Danny Coyne
+          ? ^
+          - 5                       Chris Day
+          + 4                    Jimmy Walker
+          - 6    Joaquim Manuel Sampaio Silva
+          ? ^
+          + 5    Joaquim Manuel Sampaio Silva
+          ? ^
+          - 7                   Kjetil Wæhler
+          ? ^
+          + 6                   Kjetil Wæhler
+          ? ^
+          - 8                    Timmy Simons
+          + 7                       Chris Day
+          + 8                   Marco Storari
+          9                  Benjamin Nivet
+          - Name: full_name, dtype: object
+          + dtype: object.all</failure></testcase><testcase classname="test_submit" file="test_submit.py" line="75" name="test_part_6" time="0.0016477108001708984"><failure message="ValueError: Can only compare identically-labeled Series objects">E   ValueError: Can only compare identically-labeled Series objects</failure></testcase><testcase classname="test_submit" file="test_submit.py" line="109" name="test_part_7" time="0.0037627220153808594"></testcase></testsuite>

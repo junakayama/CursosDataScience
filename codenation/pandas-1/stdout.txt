@@ -1,0 +1,21 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.5, pytest-3.6.1, py-1.5.3, pluggy-0.6.0 -- /home/julia/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/julia/codenation/pandas-1, inifile:
+plugins: remotedata-0.2.1, openfiles-0.3.0, doctestplus-0.1.3, arraydiff-0.2
+collecting ... collected 7 items
+
+test_submit.py::test_part_1 PASSED                                       [ 14%]
+test_submit.py::test_part_2 PASSED                                       [ 28%]
+test_submit.py::test_part_3 FAILED                                       [ 42%]
+test_submit.py::test_part_4 PASSED                                       [ 57%]
+test_submit.py::test_part_5 FAILED                                       [ 71%]
+test_submit.py::test_part_6 FAILED                                       [ 85%]
+test_submit.py::test_part_7 PASSED                                       [100%]
+
+=================================== FAILURES ===================================
+/home/julia/anaconda3/lib/python3.6/site-packages/pandas/core/generic.py:1573: ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+/home/julia/codenation/pandas-1/test_submit.py:62: assert False
+/home/julia/anaconda3/lib/python3.6/site-packages/pandas/core/ops.py:1187: ValueError: Can only compare identically-labeled Series objects
+-------- generated xml file: /home/julia/codenation/pandas-1/output.xml --------
+====================== 3 failed, 4 passed in 1.05 seconds ======================
